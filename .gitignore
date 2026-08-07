@@ -1,0 +1,16 @@
+# Experiment artifacts
+logs/
+outputs/
+checkpoints/
+wandb/
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Editors and operating systems
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
