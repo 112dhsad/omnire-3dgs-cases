@@ -14,20 +14,22 @@ Qualitative demonstrations of dynamic urban-scene reconstruction and novel-view 
 
 ## Qualitative Results
 
+Animated GIFs are embedded for quick preview. Click any preview to open the original MP4.
+
 ### 1. Rigid Node Initialization Repair
 
 The repair improves dynamic-object reconstruction when missing LiDAR annotations cause Rigid Node initialization to fail.
 
 | Before repair | After repair | Ground truth |
 |:---:|:---:|:---:|
-| [▶ Open MP4](assets/videos/rigid-node-repair/before.mp4) | [▶ Open MP4](assets/videos/rigid-node-repair/after.mp4) | [▶ Open MP4](assets/videos/rigid-node-repair/ground-truth.mp4) |
+| [![Before repair](assets/gifs/rigid-node-repair/before.gif)](assets/videos/rigid-node-repair/before.mp4) | [![After repair](assets/gifs/rigid-node-repair/after.gif)](assets/videos/rigid-node-repair/after.mp4) | [![Ground truth](assets/gifs/rigid-node-repair/ground-truth.gif)](assets/videos/rigid-node-repair/ground-truth.mp4) |
 | 5 s · 1536×512 · 10 FPS | 5 s · 1536×512 · 10 FPS | 5 s · 1536×512 · 10 FPS |
 
 ### 2. Reconstruction and Novel-view Synthesis
 
 | Reconstruction | Ground truth | Novel view |
 |:---:|:---:|:---:|
-| [▶ Open MP4](assets/videos/reconstruction-and-nvs/reconstruction.mp4) | [▶ Open MP4](assets/videos/reconstruction-and-nvs/ground-truth.mp4) | [▶ Open MP4](assets/videos/reconstruction-and-nvs/novel-view.mp4) |
+| [![Reconstruction](assets/gifs/reconstruction-and-nvs/reconstruction.gif)](assets/videos/reconstruction-and-nvs/reconstruction.mp4) | [![Ground truth](assets/gifs/reconstruction-and-nvs/ground-truth.gif)](assets/videos/reconstruction-and-nvs/ground-truth.mp4) | [![Novel view](assets/gifs/reconstruction-and-nvs/novel-view.gif)](assets/videos/reconstruction-and-nvs/novel-view.mp4) |
 | 10 s · 2048×1024 · 10 FPS | 10 s · 2048×1024 · 10 FPS | 4 s · 1024×512 · 24 FPS |
 
 ## Upstream OmniRe
@@ -81,15 +83,12 @@ A reusable version of this launcher is provided in [`scripts/run_omnire.sh`](scr
 ├── README.md
 ├── UPLOAD.md
 ├── assets/
-│   └── videos/
+│   ├── gifs/                 # Embedded README previews
+│   │   ├── rigid-node-repair/
+│   │   └── reconstruction-and-nvs/
+│   └── videos/               # Original MP4 results
 │       ├── rigid-node-repair/
-│       │   ├── before.mp4
-│       │   ├── after.mp4
-│       │   └── ground-truth.mp4
 │       └── reconstruction-and-nvs/
-│           ├── reconstruction.mp4
-│           ├── ground-truth.mp4
-│           └── novel-view.mp4
 ├── references/
 │   └── omnire.bib
 └── scripts/
