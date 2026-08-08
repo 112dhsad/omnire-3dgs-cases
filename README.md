@@ -14,23 +14,55 @@ Qualitative demonstrations of dynamic urban-scene reconstruction and novel-view 
 
 ## Qualitative Results
 
-Animated GIFs are embedded for quick preview. Click any preview to open the original MP4.
+Animated GIFs are embedded at a large display size for quick preview. Click any preview to open the original MP4.
 
 ### 1. Rigid Node Initialization Repair
 
 The repair improves dynamic-object reconstruction when missing LiDAR annotations cause Rigid Node initialization to fail.
 
-| Before repair | After repair | Ground truth |
-|:---:|:---:|:---:|
-| [![Before repair](assets/gifs/rigid-node-repair/before.gif)](assets/videos/rigid-node-repair/before.mp4) | [![After repair](assets/gifs/rigid-node-repair/after.gif)](assets/videos/rigid-node-repair/after.mp4) | [![Ground truth](assets/gifs/rigid-node-repair/ground-truth.gif)](assets/videos/rigid-node-repair/ground-truth.mp4) |
-| 5 s · 1536×512 · 10 FPS | 5 s · 1536×512 · 10 FPS | 5 s · 1536×512 · 10 FPS |
+#### Before repair
+
+<p align="center">
+  <a href="assets/videos/rigid-node-repair/before.mp4"><img src="assets/gifs/rigid-node-repair/before.gif" alt="Before repair" width="900"></a><br>
+  <sub>5 s · 1536×512 · 10 FPS · Click to open MP4</sub>
+</p>
+
+#### After repair
+
+<p align="center">
+  <a href="assets/videos/rigid-node-repair/after.mp4"><img src="assets/gifs/rigid-node-repair/after.gif" alt="After repair" width="900"></a><br>
+  <sub>5 s · 1536×512 · 10 FPS · Click to open MP4</sub>
+</p>
+
+#### Ground truth
+
+<p align="center">
+  <a href="assets/videos/rigid-node-repair/ground-truth.mp4"><img src="assets/gifs/rigid-node-repair/ground-truth.gif" alt="Ground truth for rigid-node repair" width="900"></a><br>
+  <sub>5 s · 1536×512 · 10 FPS · Click to open MP4</sub>
+</p>
 
 ### 2. Reconstruction and Novel-view Synthesis
 
-| Reconstruction | Ground truth | Novel view |
-|:---:|:---:|:---:|
-| [![Reconstruction](assets/gifs/reconstruction-and-nvs/reconstruction.gif)](assets/videos/reconstruction-and-nvs/reconstruction.mp4) | [![Ground truth](assets/gifs/reconstruction-and-nvs/ground-truth.gif)](assets/videos/reconstruction-and-nvs/ground-truth.mp4) | [![Novel view](assets/gifs/reconstruction-and-nvs/novel-view.gif)](assets/videos/reconstruction-and-nvs/novel-view.mp4) |
-| 10 s · 2048×1024 · 10 FPS | 10 s · 2048×1024 · 10 FPS | 4 s · 1024×512 · 24 FPS |
+#### Reconstruction
+
+<p align="center">
+  <a href="assets/videos/reconstruction-and-nvs/reconstruction.mp4"><img src="assets/gifs/reconstruction-and-nvs/reconstruction.gif" alt="Reconstruction" width="900"></a><br>
+  <sub>10 s · 2048×1024 · 10 FPS · Click to open MP4</sub>
+</p>
+
+#### Ground truth
+
+<p align="center">
+  <a href="assets/videos/reconstruction-and-nvs/ground-truth.mp4"><img src="assets/gifs/reconstruction-and-nvs/ground-truth.gif" alt="Ground truth for reconstruction" width="900"></a><br>
+  <sub>10 s · 2048×1024 · 10 FPS · Click to open MP4</sub>
+</p>
+
+#### Novel view
+
+<p align="center">
+  <a href="assets/videos/reconstruction-and-nvs/novel-view.mp4"><img src="assets/gifs/reconstruction-and-nvs/novel-view.gif" alt="Novel view" width="900"></a><br>
+  <sub>4 s · 1024×512 · 24 FPS · Click to open MP4</sub>
+</p>
 
 ## Upstream OmniRe
 
